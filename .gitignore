@@ -1,0 +1,19 @@
+# Ignore compiled Byte-code / Cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Virtual Environments
+venv/
+env/
+.venv/
+
+# Ignore Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment variables / secrets
+.env
+
+# Ignore specific Python scripts if needed (e.g., local tests)
+# temp_test.py
